@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Launched ]]>
+    </line>
+    <line>
+      <![CDATA[Environment : ]]>
+    </line>
+    <line>
+      <![CDATA[Booking ID : 1623159700597]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31861" started-at="2021-06-08T13:41:12Z" finished-at="2021-06-08T13:41:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31861" started-at="2021-06-08T13:41:12Z" finished-at="2021-06-08T13:41:44Z">
+      <class name="com.spacex.api.GetLatestSpaceX">
+        <test-method status="PASS" signature="getSpaceXLatest()[pri:0, instance:com.spacex.api.GetLatestSpaceX@15761df8]" name="getSpaceXLatest" duration-ms="4751" started-at="2021-06-08T19:11:12Z" finished-at="2021-06-08T19:11:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpaceXLatest -->
+      </class> <!-- com.spacex.api.GetLatestSpaceX -->
+      <class name="com.blazedemo.test.FlighBooking.TestFlightBooking">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.blazedemo.test.FlighBooking.TestFlightBooking@78047b92]" name="login" is-config="true" duration-ms="7022" started-at="2021-06-08T19:11:17Z" finished-at="2021-06-08T19:11:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launched ]]>
+            </line>
+            <line>
+              <![CDATA[Environment : ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="flightBooking()[pri:0, instance:com.blazedemo.test.FlighBooking.TestFlightBooking@78047b92]" name="flightBooking" duration-ms="18849" started-at="2021-06-08T19:11:24Z" finished-at="2021-06-08T19:11:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Booking ID : 1623159700597]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flightBooking -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.blazedemo.test.FlighBooking.TestFlightBooking@78047b92]" name="teardown" is-config="true" duration-ms="1215" started-at="2021-06-08T19:11:43Z" finished-at="2021-06-08T19:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.blazedemo.test.FlighBooking.TestFlightBooking -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
